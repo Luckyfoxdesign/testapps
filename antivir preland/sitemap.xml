@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://malware.com/index.html</loc>
+    <lastmod>2017-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://malware.com/phone/index.html"/>
+    <image:image>
+      <image:loc>http://malware.com/images/normal.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://malware.com/images/logo-crop-u114.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://malware.com/images/robot-crop-u363.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://malware.com/images/logo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://malware.com/images/robot-crop-u3632.png</image:loc>
+    </image:image>
+  </url>
+</urlset>

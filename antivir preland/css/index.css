@@ -1,0 +1,43 @@
+.version.index{color:#0000F8;background-color:#93D8E1;}#page{border-width:0px;z-index:1;background-image:none;min-height:592px;margin-left:auto;margin-right:auto;width:100%;border-color:#000000;background-color:transparent;padding-bottom:62px;}#pu114{margin-right:-10000px;z-index:2;}#u114{left:20px;z-index:2;position:fixed;background-color:transparent;}#u329-4{left:20px;z-index:8;display:block;position:fixed;vertical-align:top;font-size: 25px;
+    line-height: 29px;
+    font-weight: bold;}#u326-4{left:20px;z-index:12;display:block;position:fixed;vertical-align:top;font-size: 13px;}#u323-4{left:20px;z-index:16;display:block;position:fixed;vertical-align:top;    color: #8c8c8c;
+    font-size: 11.6px;}#u320-4{left:20px;z-index:20;display:block;position:fixed;vertical-align:top;color: #8c8c8c;
+    font-size: 11.6px;}#u317-4{left:20px;z-index:24;display:block;position:fixed;vertical-align:top;}#u332{z-index:6;margin-right:-10000px;background-color:transparent;display: block;
+    position: fixed;
+    vertical-align: top;}#u332_img{width:100%;}#u363{z-index:4;right:20px;position:fixed;top:33px;background-color:transparent;}.html{background-color:#FFFFFF;}body{position:relative;}@media (min-width: 321px), print{#muse_css_mq{background-color:#FFFFFF;}#bp_infinity.active{display:block;}#page{max-width:458px;}#pu114{padding-bottom:453px;margin-top:62px;width:91.27%;}#u114{top:62px;width:36.47%;max-width:167px;}#u329-4{top:146px;width:91.27%;max-width:418px;}#u326-4{top:342px;width:91.27%;max-width:418px;}#u323-4{top:417px;width:91.27%;max-width:418px;}#u320-4{top:453px;width:91.27%;max-width:418px;}#u317-4{top:244px;width:91.27%;max-width:418px;color: red;
+    font-size: 12px;}#u332{margin-top:529px;width:64.2%;left:17.91%;}#u363{width:25.11%;max-width:115px;}#u114_img,#u363_img{width:100%;}.css_verticalspacer .verticalspacer{height:calc(100vh - 659px);}}@media (max-width: 320px){#muse_css_mq{background-color:#000140;}#bp_320.active{display:block;}#page{max-width:320px;}#pu114{padding-bottom:462px;margin-top:63px;width:91.25%;}#u114{width:135px;top:63px;}#u114_img{    width: 100%;}#u329-4{top:153px;width:91.25%;max-width:292px;}#u326-4{top:349px;width:91.25%;max-width:292px;}#u323-4{top:428px;width:91.25%;max-width:292px;}#u320-4{top:473px;width:91.25%;max-width:292px;}#u317-4{top:237px;width:91.25%;max-width:292px;color: red;
+    font-size: 12px;}#u332{margin-top:515px;width:64.07%;left:17.82%;display: block;
+    position: fixed;
+    vertical-align: top;}#u363{width:28.13%;max-width:90px;}#u363_img{width:101.12%;}.css_verticalspacer .verticalspacer{height:calc(100vh - 653px);}body{overflow-x:hidden;min-width:319px;}}
+    
+    #u317-4 {
+	-webkit-animation: blink 0.3s linear infinite; 
+	animation: blink 0.3s linear infinite; 
+	font-weight: 700; 
+	color: #F00; 
+}
+.temp_no_img_src b {color: black;}
+@-webkit-keyframes blink { 
+	0% { color: #F00; }
+	20% { color: #fb5b5b; }
+	100% { color: #F00; }
+
+}
+
+@-webkit-keyframes blink 
+{
+	0% { color: #F00; }
+	20% { color: #fb5b5b; }
+	100% { color: #F00; }
+2%{transform:translate(1px, 0px) rotate(0.5deg)}4%{transform:translate(0px, 0px) rotate(0.5deg)}6%{transform:translate(0px, 1px) rotate(0.5deg)}8%{transform:translate(1px, 0px) rotate(0.5deg)}10%{transform:translate(0px, 1px) rotate(0.5deg)}12%{transform:translate(0px, 0px) rotate(0.5deg)}14%{transform:translate(0px, 1px) rotate(0.5deg)}16%{transform:translate(0px, 0px) rotate(0.5deg)}18%{transform:translate(0px, 1px) rotate(0.5deg)}20%{transform:translate(0px, 1px) rotate(0.5deg)}22%{transform:translate(0px, 1px) rotate(0.5deg)}24%{transform:translate(0px, 0px) rotate(0.5deg)}26%{transform:translate(1px, 0px) rotate(0.5deg)}28%{transform:translate(0px, 1px) rotate(0.5deg)}30%{transform:translate(1px, 0px) rotate(0.5deg)}32%{transform:translate(1px, 0px) rotate(0.5deg)}34%{transform:translate(1px, 1px) rotate(0.5deg)}36%{transform:translate(0px, 0px) rotate(0.5deg)}38%{transform:translate(1px, 1px) rotate(0.5deg)}40%{transform:translate(1px, 1px) rotate(0.5deg)}42%{transform:translate(0px, 0px) rotate(0.5deg)}44%{transform:translate(1px, 1px) rotate(0.5deg)}46%{transform:translate(1px, 1px) rotate(0.5deg)}48%{transform:translate(1px, 0px) rotate(0.5deg)}50%{transform:translate(1px, 0px) rotate(0.5deg)}52%{transform:translate(0px, 0px) rotate(0.5deg)}54%{transform:translate(1px, 0px) rotate(0.5deg)}56%{transform:translate(1px, 0px) rotate(0.5deg)}58%{transform:translate(1px, 1px) rotate(0.5deg)}60%{transform:translate(1px, 1px) rotate(0.5deg)}62%{transform:translate(0px, 1px) rotate(0.5deg)}64%{transform:translate(1px, 0px) rotate(0.5deg)}66%{transform:translate(0px, 1px) rotate(0.5deg)}68%{transform:translate(0px, 1px) rotate(0.5deg)}70%{transform:translate(1px, 1px) rotate(0.5deg)}72%{transform:translate(1px, 0px) rotate(0.5deg)}74%{transform:translate(1px, 0px) rotate(0.5deg)}76%{transform:translate(1px, 1px) rotate(0.5deg)}78%{transform:translate(1px, 1px) rotate(0.5deg)}80%{transform:translate(1px, 1px) rotate(0.5deg)}82%{transform:translate(0px, 0px) rotate(0.5deg)}84%{transform:translate(0px, 0px) rotate(0.5deg)}86%{transform:translate(1px, 1px) rotate(0.5deg)}88%{transform:translate(1px, 1px) rotate(0.5deg)}90%{transform:translate(0px, 0px) rotate(0.5deg)}92%{transform:translate(1px, 0px) rotate(0.5deg)}94%{transform:translate(0px, 1px) rotate(0.5deg)}96%{transform:translate(1px, 0px) rotate(0.5deg)}98%{transform:translate(1px, 1px) rotate(0.5deg)}0%,100%{transform:translate(0, 0) rotate(0)}
+
+}
+
+@keyframes blink {  
+	0% { color: #F00; }
+	20% { color: #fb5b5b; }
+	100% { color: #F00; }
+2%{transform:translate(1px, 0px) rotate(0.5deg)}4%{transform:translate(0px, 0px) rotate(0.5deg)}6%{transform:translate(0px, 1px) rotate(0.5deg)}8%{transform:translate(1px, 0px) rotate(0.5deg)}10%{transform:translate(0px, 1px) rotate(0.5deg)}12%{transform:translate(0px, 0px) rotate(0.5deg)}14%{transform:translate(0px, 1px) rotate(0.5deg)}16%{transform:translate(0px, 0px) rotate(0.5deg)}18%{transform:translate(0px, 1px) rotate(0.5deg)}20%{transform:translate(0px, 1px) rotate(0.5deg)}22%{transform:translate(0px, 1px) rotate(0.5deg)}24%{transform:translate(0px, 0px) rotate(0.5deg)}26%{transform:translate(1px, 0px) rotate(0.5deg)}28%{transform:translate(0px, 1px) rotate(0.5deg)}30%{transform:translate(1px, 0px) rotate(0.5deg)}32%{transform:translate(1px, 0px) rotate(0.5deg)}34%{transform:translate(1px, 1px) rotate(0.5deg)}36%{transform:translate(0px, 0px) rotate(0.5deg)}38%{transform:translate(1px, 1px) rotate(0.5deg)}40%{transform:translate(1px, 1px) rotate(0.5deg)}42%{transform:translate(0px, 0px) rotate(0.5deg)}44%{transform:translate(1px, 1px) rotate(0.5deg)}46%{transform:translate(1px, 1px) rotate(0.5deg)}48%{transform:translate(1px, 0px) rotate(0.5deg)}50%{transform:translate(1px, 0px) rotate(0.5deg)}52%{transform:translate(0px, 0px) rotate(0.5deg)}54%{transform:translate(1px, 0px) rotate(0.5deg)}56%{transform:translate(1px, 0px) rotate(0.5deg)}58%{transform:translate(1px, 1px) rotate(0.5deg)}60%{transform:translate(1px, 1px) rotate(0.5deg)}62%{transform:translate(0px, 1px) rotate(0.5deg)}64%{transform:translate(1px, 0px) rotate(0.5deg)}66%{transform:translate(0px, 1px) rotate(0.5deg)}68%{transform:translate(0px, 1px) rotate(0.5deg)}70%{transform:translate(1px, 1px) rotate(0.5deg)}72%{transform:translate(1px, 0px) rotate(0.5deg)}74%{transform:translate(1px, 0px) rotate(0.5deg)}76%{transform:translate(1px, 1px) rotate(0.5deg)}78%{transform:translate(1px, 1px) rotate(0.5deg)}80%{transform:translate(1px, 1px) rotate(0.5deg)}82%{transform:translate(0px, 0px) rotate(0.5deg)}84%{transform:translate(0px, 0px) rotate(0.5deg)}86%{transform:translate(1px, 1px) rotate(0.5deg)}88%{transform:translate(1px, 1px) rotate(0.5deg)}90%{transform:translate(0px, 0px) rotate(0.5deg)}92%{transform:translate(1px, 0px) rotate(0.5deg)}94%{transform:translate(0px, 1px) rotate(0.5deg)}96%{transform:translate(1px, 0px) rotate(0.5deg)}98%{transform:translate(1px, 1px) rotate(0.5deg)}0%,100%{transform:translate(0, 0) rotate(0)}
+
+}
+

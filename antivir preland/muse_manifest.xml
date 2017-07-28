@@ -1,0 +1,65 @@
+<manifest alg="2" build="2017.0.4.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="malware.com" resolutions="1x" timestamp="1501059611956">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="index.css" crc="4170438881" ref="index"/>
+    <file name="nomq_index.css" crc="3847530600" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:index"/>
+    <file name="museutils.js" crc="4216313831" ref="phone>index:index"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>index:index"/>
+    <file name="museconfig.js" crc="4177022356" ref="phone>index:index"/>
+    <file name="jquery.watch.js" crc="460461809" ref="phone>index:index"/>
+    <file name="require.js" crc="3951022091" ref="phone>index:index"/>
+    <file name="jquery.museresponsive.js" crc="4055310269" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="logo-crop-u1255.png" crc="128085953" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="robot-crop-u1257.png" crc="132994780" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u1261-4.png" crc="78439485" ref="phone>index"/>
+    <file name="u1265-4.png" crc="101845901" ref="phone>index"/>
+    <file name="u1262-4.png" crc="3942044358" ref="phone>index"/>
+    <file name="u1263-4.png" crc="527299028" ref="phone>index"/>
+    <file name="u1264-4.png" crc="335467194" ref="phone>index"/>
+    <file name="normal.png" crc="4127004196" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo-crop-u114.png" crc="128085953" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u329-4.png" crc="325457102" ref="index"/>
+    <file name="u326-4.png" crc="82819509" ref="index"/>
+    <file name="u323-4.png" crc="3820142466" ref="index"/>
+    <file name="u320-4.png" crc="155572045" ref="index"/>
+    <file name="u317-4.png" crc="368031312" ref="index"/>
+    <file name="robot-crop-u363.png" crc="4045408320" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo.png" crc="3920127747" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u329-42.png" crc="4036671565" ref="index"/>
+    <file name="u326-42.png" crc="450819909" ref="index"/>
+    <file name="u323-42.png" crc="4275568326" ref="index"/>
+    <file name="u320-42.png" crc="184293432" ref="index"/>
+    <file name="u317-42.png" crc="3906725091" ref="index"/>
+    <file name="robot-crop-u3632.png" crc="4182078629" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="index.css" crc="99565606" ref="phone>index"/>
+      <file name="nomq_index.css" crc="3824530138" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="4095435315" seo="true" mt="1501059526075" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="3857506396" seo="true" mt="1501058526919" redirect="true"/>
+</manifest>
