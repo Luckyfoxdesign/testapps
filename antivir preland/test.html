@@ -6,9 +6,6 @@
 
             location = (code + ".html");
         }
-        
-        var arrayLan = ["ru", "en"]
-        
         var getFirstBrowserLanguage = function () {
             var nav = window.navigator,
                 browserLanguagePropertyKeys = ['language', 'browserLanguage', 'systemLanguage', 'userLanguage'],
@@ -31,6 +28,9 @@
 
             return null;
         };
+
+        showpage(getFirstBrowserLanguage().split("-")[0]);
+        
     </script>
 
     <body>
