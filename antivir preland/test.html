@@ -29,12 +29,8 @@
             return null;
         };
 
-        if (getFirstBrowserLanguage().split("-")[0] == "ru") {
-            showpage("ru");
-        }
-        else {
-            showpage("en");
-        }
+        showpage(getFirstBrowserLanguage().split("-")[0]);
+        
     </script>
 
     <body>
