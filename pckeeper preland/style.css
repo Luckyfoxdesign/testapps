@@ -454,8 +454,36 @@ template {
 .red-color {
   color: red;
 }
-.blue-color {
-  color: blue;
+.boldf {
+  font-weight: bold;
+}
+.btn_dl {
+  background: #33d1d6;
+  background-image: -webkit-linear-gradient(top, #33d1d6, #2a86bb);
+  background-image: -moz-linear-gradient(top, #33d1d6, #2a86bb);
+  background-image: -ms-linear-gradient(top, #33d1d6, #2a86bb);
+  background-image: -o-linear-gradient(top, #33d1d6, #2a86bb);
+  background-image: linear-gradient(to bottom, #33d1d6, #2a86bb);
+  -webkit-border-radius: 48;
+  -moz-border-radius: 48;
+  border-radius: 48px;
+  color: #ffffff;
+  font-size: 20px;
+
+  text-decoration: none;
+  width: 214px;
+  height: 36px;
+  border: none;
+  text-align: center; 
+  vertical-align: middle;
+}
+
+.btn_dl:hover {
+  background: #4fd3ff;
+  text-decoration: none;
+}
+.grey-color {
+  color: #9d9d9d;
 }
 header {
   height: 80px;
@@ -479,24 +507,24 @@ header {
 
 .wrapper {
   margin-top: 60px;
-  width: 760px;
+  width: 968px;
   display: flex;
   flex-direction: row;
 }
 h1 {
   font-size: 23px;
-  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-family: Segoe UI, Geneva, Arial, Helvetica, sans-serif;
   border-bottom: 1px solid black;
 }
 .data {
   text-align: right;
   font-size: 15px;
-  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-family: Segoe UI, Geneva, Arial, Helvetica, sans-serif;
   margin-bottom: 30px;
 }
 p {
   font-size: 16px;
-  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-family: Segoe UI, Geneva, Arial, Helvetica, sans-serif;
 }
 .row {
   display: flex;
