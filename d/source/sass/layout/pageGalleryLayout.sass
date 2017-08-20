@@ -1,0 +1,113 @@
+.about-information
+	.wrapper
+		.tags-cloud
+			display: flex
+			width: 100%
+
+			flex-wrap: wrap
+			justify-content: center
+
+			margin-top: 20px
+			margin-bottom: 40px
+
+			p
+				display: flex
+
+				padding: 12px
+				padding-left: 44px
+				padding-right: 44px
+
+				margin: 0
+				margin-right: 10px
+				margin-left: 10px
+				margin-bottom: 20px
+
+		.gallery-content
+			display: flex
+			flex-direction: column
+			width: 100%
+
+			.paginator
+				display: flex
+				align-self: center
+
+				margin-top: 30px
+
+				.first, .back, .next, .last, .numbers
+					display: flex
+					justify-content: center
+					align-items: center
+
+					height: 40px
+					width: 40px
+
+					border: 2px solid #aaa
+
+				.back, .last
+					border-left: 0
+
+				.numbers
+					min-width: 180px
+					border-left: 0px
+					border-right: 0px
+
+					a:after
+						content: ','
+						margin-right: 5px
+					a:last-child:after
+						content: ''
+
+			.cards-container
+				display: flex
+				flex-wrap: wrap
+				width: 100%
+
+				justify-content: space-between
+
+				.card
+					display: flex
+					flex-direction: column
+
+					align-items: flex-start
+
+					width: calc( (100% / 3) - (42px / 3) )
+
+					margin-bottom: 0px
+
+					@include Phone
+						width: 100%
+
+					p
+						margin: 0px
+						margin-top: 20px
+						margin-bottom: 35px
+						padding-left: 3px
+
+					.gallery-element-wrapper
+						display: flex
+						flex-direction: column
+
+						justify-content: center
+						align-items: center
+
+						position: relative
+
+						&:hover
+							.on-hover-block
+								opacity: 1
+
+						.on-hover-block
+							display: flex
+							position: absolute
+
+							opacity: 0
+							transition: .3s all
+							cursor: pointer
+							
+							top: 0px
+							bottom: 0px
+							left: 0px
+							right: 0px
+
+							justify-content: center
+							align-items: center

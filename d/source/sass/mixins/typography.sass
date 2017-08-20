@@ -1,0 +1,15 @@
+@mixin FontSize($Desktop, $Laptop, $BigTablet, $SmallTablet, $Phone)
+	@include Desktop
+		font-size: $Desktop
+
+	@include Laptop
+		font-size: $Laptop
+
+	@include BigTablet
+		font-size: $BigTablet
+
+	@include SmallTablet
+		font-size: $SmallTablet
+
+	@include Phone
+		font-size: $Phone

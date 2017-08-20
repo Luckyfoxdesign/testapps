@@ -1,0 +1,77 @@
+// Главные лэйауты
+body
+	overflow-x: hidden
+
+.fixed-at-top
+	position: fixed
+	top: 0px
+	left: 0px
+
+.elements-in-center
+	justify-content: space-around
+	align-items: space-around
+
+	@include Phone
+		align-items: space-around !important
+		flex-wrap: wrap
+
+*
+	box-sizing: border-box
+
+img
+	width: 100%
+
+// Лэйаут всех секций, общий
+section
+	display: flex
+	justify-content: center
+
+	width: 100%
+
+	.wrapper
+		display: flex
+		flex-direction: column
+
+		width: 1260px
+
+		@include Laptop
+			width: 1170px
+
+		@include BigTablet
+			width: 960px
+
+		@include SmallTablet
+			width: 710px
+
+		@include Phone
+			width: 330px
+
+	&.base-section
+		margin-top: 90px
+
+		@include Laptop
+			margin-top: 65px
+
+		@include BigTablet
+			margin-top: 50px
+
+		@include SmallTablet
+			margin-top: 40px
+
+		.wrapper
+			align-items: center
+		
+			h3, p
+				margin: 0
+				margin-bottom: 40px
+
+				text-align: center
+
+				@include Laptop
+					margin-bottom: 30px
+
+				@include BigTablet
+					margin-bottom: 30px
+
+				@include SmallTablet
+					margin-bottom: 30px

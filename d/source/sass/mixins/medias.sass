@@ -1,0 +1,30 @@
+$phone:   0px
+$Tsmall:  768px
+$Tbig:    1024px
+$Dsmall:  1280px
+$Dmedium: 1366px
+$Dbig:    1920px
+
+@mixin breakpoint($min, $max)
+	@media (min-width: #{$min}) and (max-width: #{$max})
+		@content
+
+@mixin Phone
+	@include breakpoint($phone, $Tsmall - 1px)
+		@content
+
+@mixin SmallTablet
+	@include breakpoint($Tsmall, $Tbig - 1px)
+		@content
+
+@mixin BigTablet
+	@include breakpoint($Tbig, $Dsmall - 1px)
+		@content
+
+@mixin Laptop
+	@include breakpoint($Dsmall, $Dmedium)
+		@content
+
+@mixin Desktop
+	@include breakpoint($Dmedium + 1px, $Dbig)
+		@content

@@ -1,0 +1,89 @@
+.services-cards-block
+	display: flex
+	width: 100%
+
+	flex-wrap: wrap
+	justify-content: space-between
+
+	.service-card
+		display: flex
+		flex-direction: column
+		align-items: center
+
+		width: calc(25% - 17px)
+		margin-bottom: 35px
+
+		@include SmallTablet
+			width: calc( (100% / 3) - (20px / 3) )
+
+		@include Phone
+			width: 100%
+
+		.describe
+			margin: 0
+
+		.image-wrapper
+			width: 100%
+			padding: 20px
+			margin-bottom: 20px
+
+			img
+				width: 100%
+				height: auto
+
+.repair-describes
+	display: flex
+	flex-direction: column
+	align-items: center
+
+	padding:
+		top: 60px
+		bottom: 60px
+
+	margin-top: 30px
+
+	width: 1080px
+
+	@include BigTablet
+		width: 798px
+
+	@include SmallTablet
+		width: 610px
+
+	@include Phone
+		width: 100%
+
+	.totalCost
+		margin: 0
+
+	.describes
+		width: 660px
+
+		@include SmallTablet
+			width: 550px
+
+		@include Phone
+			width: calc(100% - 20px)
+
+		.totalCost
+			margin-top: 55px
+			padding-top: 30px
+
+			border-top: 1px solid black
+
+		li
+			display: flex
+
+			margin-bottom: 10px
+			align-items: center
+
+		li:before
+			content: ' '
+			display: inline-block
+			margin-right: 5px
+			width: 21px
+			min-width: 21px
+			height: 42px
+			background-image: url("../img/select.png")
+			background-position-y: 10px
+			background-repeat: no-repeat

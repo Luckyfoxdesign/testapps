@@ -1,0 +1,68 @@
+.about-director-block
+	display: flex
+	flex-direction: row
+
+	width: 100%
+
+	justify-content: center
+
+	.director-photo
+		display: flex
+		width: 343px
+
+		@include SmallTablet
+			width: 270px
+
+		.dimg
+			z-index: 10
+			width: 100%
+			height: auto
+
+	.director-creds
+		display: flex
+		flex-direction: column
+
+		@include SmallTablet
+			width: calc(100% - 270px)
+
+		.main-creds
+			padding-left: 50px - 12px
+			margin-bottom: 20px
+			margin-top: 5px
+
+			text-align: left
+
+			@include SmallTablet
+				padding-left: 20px
+
+		.blocked
+			display: block
+			width: 663px
+			padding: 50px
+
+			margin-left: -24px
+
+			text-align: left
+
+			@include SmallTablet
+				width: 100%
+				padding: 20px
+				padding-left: 30px
+
+
+			border: 12px solid black
+
+.rounded-company-advantages
+	display: flex
+	justify-content: space-around
+	width: 100%
+
+	.rounded-advantage-element
+		display: flex
+		flex-direction: column
+
+		justify-content: center
+		align-items: center
+
+		.icon
+			margin-bottom: 20px

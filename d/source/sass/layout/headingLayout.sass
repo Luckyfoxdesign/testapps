@@ -1,0 +1,135 @@
+// Лэйаут верхнего фиксированного блока и его детей крч
+.contact-bar
+	height: 50px
+
+	z-index: 100
+
+	.wrapper
+
+		flex-direction: row
+		justify-content: space-between
+
+		// общий лэйаут дочернего блока
+		.social-element
+			display: flex
+			
+			flex-basis: 220px
+			min-width: 220px
+
+			justify-content: space-between
+			align-items: center
+
+			&.phone
+				justify-content: left
+
+				i
+					margin-right: 10px
+
+			&.just-component
+				div
+					width: 100%
+					justify-content: space-between
+
+
+		.menu-btn
+			display: none
+			@include Phone
+				display: flex
+				min-width: 50px !important
+				justify-content: flex-end
+
+		.social-icons
+			@include Phone
+				display: none
+
+// базовый лейаут топ-навбара
+.top-navbar
+	margin-top: 50px
+
+	@include Phone
+		display: none
+
+.menu
+	padding:
+		top: 40px
+		bottom: 40px
+
+	@include BigTablet
+		padding:
+			top: 25px
+			bottom: 25px
+
+	@include SmallTablet
+		padding:
+			top: 25px
+			bottom: 25px
+
+	.wrapper
+
+		flex-direction: row
+		justify-content: flex-end
+
+		li
+			display: inline-flex
+			margin-left: 100px
+
+			@include BigTablet
+				margin-left: 60px
+
+			@include SmallTablet
+				margin-left: 40px
+
+			&:first-child
+				margin-left: 0px
+
+
+// Лэйаут баннера
+.banner
+	height: 600px
+
+	@include BigTablet
+		height: 350px
+
+	@include SmallTablet
+		height: 350px
+
+	@include Phone
+		height: 246px
+		margin-top: 50px
+
+	.wrapper
+		justify-content: center
+		align-items: flex-start
+
+		padding-left: 87px
+
+		@include Phone
+			padding-left: 0
+
+		a.button
+			padding-left: 40px
+			padding-right: 40px
+
+		h1, h2, a
+			margin: 0
+			padding-top: 25px
+			padding-bottom: 25px
+
+			@include Phone
+				padding-top: 8px
+				padding-bottom: 8px
+
+// типа футер контактбар
+.footer
+	padding-bottom: 50px
+	padding-top: 50px
+
+	.wrapper
+		align-items: center
+
+		.social-element
+			display: flex
+			flex-direction: column
+
+			.phone
+				margin-bottom: 20px

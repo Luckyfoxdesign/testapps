@@ -1,0 +1,177 @@
+// so, very global
+p, li, a
+	@include FontSize(15px, 15px, 14px, 13px, 12px)
+	line-height: 1.6
+
+a.button
+	text-decoration: none
+	text-transform: uppercase
+	font-weight: 700
+	padding: 20px
+	padding-left: 35px
+	padding-right: 35px
+
+// in base section
+.base-section
+	.wrapper
+		h3
+			@include FontSize(25px, 25px, 22px, 18px, 14px)
+			text-transform: uppercase
+
+		p
+			// @include FontSize(15px, 15px, 14px, 13px, 12px)
+			// desctibed in up, as global
+
+// in heading
+// banner
+.banner
+	.wrapper
+		h1
+			@include FontSize(45px, 40px, 35px, 28px, 18px)
+
+		h2
+			@include FontSize(25px, 22px, 20px, 15px, 13px)
+			font-family: PT
+			font-weight: 400
+			text-transform: unset
+
+		a
+			@include FontSize(18px, 18px, 15px, 13px, 12px)
+
+// in footer
+// form block
+.feedback-form
+	h3
+		@include FontSize(25px, 25px, 22px, 18px, 14px)
+		text-transform: uppercase
+
+	input, textarea
+		font-size: 13px
+		padding-left: 30px
+
+	textarea
+		padding-top: 15px
+
+// IN INDEX
+// prices cards
+.prices-block
+	.wrapper
+		.prices-cards-container
+			.price-card
+				.cost
+					@include FontSize(25px, 25px, 20px, 15px, 16px)
+					font-weight: 700
+					font-family: GilroyBold
+
+				.type
+					@include FontSize(18px, 18px, 16px, 14px, 14px)
+					font-weight: 700
+					text-transform: uppercase
+
+				.advatages
+					li
+						@include FontSize(14px, 14px, 14px, 12px, 12px)
+
+						&:before
+							content: '- '
+
+
+// about block in index
+.about-block
+	.wrapper
+		.company-advantages
+			h4
+				@include FontSize(45px, 45px, 35px, 28px, 18px)
+			p
+				@include FontSize(18px, 18px, 16px, 14px, 13px)
+
+
+
+
+
+// IN SERVICE PAGE
+// at `what included` block
+.repair-describes
+	.describes
+		.totalCost
+			text-transform: uppercase
+			font-weight: 700
+			text-align: left
+
+.service-card
+	text-decoration: none
+
+	.describe
+		text-transform: uppercase
+		font-weight: 700
+		text-align: left
+
+// in gallery
+// tag cloud element
+.about-information
+	.wrapper
+		.tags-cloud
+			p
+				FontSize(18px, 18px, 16px, 15px, 14px)
+				font-weight: 700
+
+		.gallery-content
+			.paginator
+				a
+					FontSize(18px, 18px, 16px, 15px, 14px)
+					font-weight: 700
+					text-decoration: none
+
+
+//about section
+//director information
+.about-director-block
+	.director-creds
+
+		.main-creds
+
+			.name
+				@include FontSize(18px, 18px, 16px, 13px, 13px)
+				font-weight: 700
+			.post
+				@include FontSize(16px, 16px, 14px, 12px, 12px)
+
+		.other-info
+			@include FontSize(17px, 17px, 15px, 13px, 13px)
+			font-weight: 700
+
+.rounded-advantage-element
+	p
+		@include FontSize(17px, 17px, 15px, 13px, 13px)
+		text-transform: uppercase
+		font-weight: 700
+
+.company-contacts
+	.contact-element
+		.text
+			span
+				@include FontSize(17px, 17px, 15px, 13px, 13px)
+				font-weight: 700
+				text-align: left
+
+.hero-text
+	@include FontSize(17px, 17px, 15px, 13px, 13px)
+	font-weight: 700
+
+	vertical-align: middle
+
+	i
+		font-size: 28px
+		vertical-align: middle
+		margin-right: 0px
+		margin-left: 10px
+
+.menu
+	a 
+		text-decoration: none
+
+
+.card
+	p
+		text-transform: uppercase
+		font-weight: 700

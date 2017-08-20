@@ -1,0 +1,74 @@
+.close-btn
+	background-color: transparent
+	color: #71d5ea
+	border: 0
+
+.menu-modal
+	background-color: rgba(0, 0, 0, 0.88)
+	opacity: 0
+
+	transition: .2s all
+
+	position: absolute
+	top: 0vh
+	left: -100vw
+
+	width: 100vw
+	height: 100vh
+
+	z-index: 1000
+
+	.content
+		width: 90vw
+		z-index: 10000
+
+		margin-top: 40px
+
+		left: 5vw
+		position: relative
+
+		.menu-heading
+			display: flex
+			justify-content: space-between
+			align-items: center
+
+			border-bottom: 2px solid #71d5ea
+			padding-bottom: 20px
+
+			.heading
+				color: #71d5ea
+				font-size: 24px
+
+			.close-btn
+				padding: 5px
+				padding-left: 25px
+				padding-right: 25px
+				width: auto
+				height: auto
+
+		li
+			display: block
+			margin-top: 20px
+			margin-bottom: 20px
+
+			a
+				color: white
+				font-family: Gilroy
+				text-decoration: none
+				font-size: 16px
+
+			a.active
+				color: #71d5ea
+				font-family: GilroyBold
+
+				&:before
+					content: '> '
+					display: inline
+					margin-right: 10px
+					margin-left: 5px
+
+		transition: .2s all
+
+	&.is-active
+		left: 0vw
+		opacity: 1
